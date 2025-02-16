@@ -3,6 +3,10 @@ import os
 import torch
 from tqdm import tqdm
 import pdb
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+
 
 from utils import setup_seed
 from dataset import Kitti, get_dataloader
